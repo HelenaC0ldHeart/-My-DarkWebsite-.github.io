@@ -1,0 +1,52 @@
+* {
+
+	font-family: monospace;
+
+
+}
+
+
+body {
+	background-image: url(../img/anonymous666.jpg);
+	background-size: auto 100vh;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+p {
+
+	color: #008F11;
+}
+
+
+h1 {
+	font-size: 70px;
+	color: #008F11;
+	height: 7em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: coding 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes coding {
+
+	from {
+
+		text-shadow: 0 0 5px #003B00, 0 0 10px #008F11, 0 0 15px #00FF41, 0 0 20px #003B00;
+
+	}
+
+
+	to {
+
+		text-shadow: 0 0 5px #00FF41, 0 0 10px #008F11, 0 0 15px #003B00 0 0 20px #00FF41;
+
+	}
+
+
+}

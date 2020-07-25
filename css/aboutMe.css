@@ -1,0 +1,298 @@
+
+* {
+
+	font-family: "monospace";
+	color:#B809CA;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+
+	height: 100vh;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menuDark {
+	background-color: #0D0208;
+	border-radius: 8px;
+	box-shadow: 0 0 32px;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+}
+
+.menuDark ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+	margin:5px;
+}
+
+.menuDark li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.menuDark a {
+
+	box-shadow: 0 0 32px;
+	display: block;
+	border-radius: 50px;
+	padding: 10px 6px;
+	background: black;
+	text-decoration: none;
+	border-style: outset;
+	border-color: aquamarine;
+	border-width: 3px;
+}
+
+.site-title {
+
+	/*#B809CA*/
+	color: black;
+	text-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+	text-align: center;
+	font-size: 60px; 
+	animation: glowT 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowT {
+
+	from {
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #B809CA, 0 0 20px #B809CA, 0 0 25px #B809CA, 0 0 30px #B809CA, 0 0 35px #B809CA;
+
+	}
+	to {
+		text-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+	}
+
+}
+
+
+
+
+.sub-title {
+	color: black;
+	text-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+a:hover {
+
+	font-weight: 1000;
+	color: #ffd1dc;
+}
+
+
+body {
+
+	background-color: #0D0208;
+	background-size: auto 100vh;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Eater', cursive;
+}
+
+h2{
+	font-family: 'Eater', cursive;
+	font-style: italic;
+
+}
+
+
+
+
+li {
+	color:#ffd1dc;
+	text-decoration: underline;
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+	text-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+	
+}
+
+h3 {
+
+	font-size: 60px;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; 
+	animation: glows 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes glows {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e70303, 0 0 20px #e70303, 0 0 25px #e70303, 0 0 30px #e70303, 0 0 35px #e70303;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #870202, 0 0 40px #870202, 0 0 50px #870202, 0 0 60px #870202, 0 0 70px #870202;
+  }
+}
+
+
+
+
+
+
+
+
+
+#witch666 {
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 200px;
+}
+
+#bat666 {
+
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 300px;
+}
+
+
+#hel666 {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	border-color: black;
+	border-radius: 66px;
+	border-style: outset;
+	box-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+
+}
+
+.text {
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+	margin: 200px;
+	color: #ffd1dc;
+	border-style: outset;
+	border-color: aquamarine;
+	border-width: 3px;
+	padding: 20px;
+	border-radius: 20px;
+	align-items: center;
+	background-color: black;
+	box-shadow: 0 0 32px;
+	text-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+}
+
+
+
+h4::after {
+              content: '>';
+              margin-left: 5px;
+              opacity: 1;
+              animation: pisca .90s infinite;
+            }
+          
+            @keyframes pisca {
+              0%, 100% {
+                opacity: 1;
+              }
+              50% {
+                opacity: 0;
+              }
+            }
+
+
+#gothHorns {
+
+	border-radius: 666px;
+	width: 100px;
+}
+
+
+
+
+#box666 {
+	color: #ffd1dc;
+	text-shadow: 0 0 12px #B809CA, 0 0 32px blue;
+	margin: 3em auto;
+	padding: 90px;
+	border-style: outset;
+	border-color: aquamarine;
+	border-width: 3px;
+	border-radius: 66px;
+	box-sizing: 10px;
+	width: 645px;
+	background-color: black;
+	background-image: url(../img/bat-hell666.png);
+	background-size: 100px;
+	background-position: right;
+	background-repeat: no-repeat;
+
+	-webkit-box-shadow: inset 3px 4px 54px -200px rgba(189,189,44,1);
+-moz-box-shadow: inset 3px 4px 54px -200px rgba(189,189,44,1);
+box-shadow: inset 3px 4px 54px -200px rgba(189,189,44,1);
+
+}
+
+#bHeader {
+	display: flex;
+	height: 450px;
+	width: 100%;
+	position: static;
+	bottom: 0px;
+}
+
+
+/* Width */
+
+::-webkit-scrollbar {
+width: 30px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+
+	background: #0D0208;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	border-width: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 12px #B809CA,0 0 32px blue;
+	background:#B809CA;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+	background:#ffd1dc;
+}

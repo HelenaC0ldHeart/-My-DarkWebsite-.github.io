@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- our metadata goes here!-->
+
+<title>My dead and Chaotic World</title>
+
+<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+
+</head>
+<body>
+
+
+<h1>Under Construction</h1>
+
+
+
+<!-- c0de type function !-->
+
+<script>
+
+         function typeWriter(elemento) {
+           const textoArray = elemento.innerHTML.split("");
+           elemento.innerHTML = "";
+           textoArray.forEach(function(letra, i) {
+          setTimeout(function() {
+           elemento.innerHTML += letra;
+          }, 40 * i)
+
+           });
+         }
+         
+         const texto = document.querySelector('h1');
+         typeWriter(texto);
+
+       </script>
+
+
+</body>
+</html>
