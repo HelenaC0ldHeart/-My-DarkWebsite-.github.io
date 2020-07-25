@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- our metadata goes here! -->
+
+
+<link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+
+<title> My Dead & Chaotic World </title>
+
+<link rel="stylesheet" type="text/css" href="css/aboutMe.css">
+
+</head>
+<body>
+
+<header>
+
+<nav class="menuDark">
+<ul>
+	<li><a href="portfolio.html">My Portfolio</a></li>
+	<li><a href="index.html">About Me</a></li>
+	<li><a href="contact-me.html">Contact Me</a></li>
+</ul> 
+</nav>
+
+
+<iframe src="song/clubbed-to-death-Matrix-soundtrack.mp3" allow="autoplay" style="display:none"
+id="iframeaudio"></iframe>
+
+
+<audio autoplay loop id="playaudio">
+	<source src="song/clubbed-to-death-Matrix-soundtrack.mp3" type="audio/mp3">
+	</audio>
+
+
+	<script>
+		
+
+		  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
+
+
+	</script>
+
+
+<img id="spider666" width="350" src="img/spider-666.png">
+
+<h1 class="site-title">Helena Leon Miranda</h1>
+
+<h2 class="sub-title">Cybersecurity Student</h2>
+
+</header>
+
+
+
+ <!-- <p class="sub-title">The underwold about music and the weird feelings some of us feel...</p>*/ -->
+<div>
+
+<div id="witch666" style="background-image: url(img/witch-666.png);">
+
+<div id="bat666" style="background-image: url(img/bat-666.png);">
+
+<img id="hel666" width="200" src="img/Hel-666.jpeg">
+
+
+<div>
+<h4 class="text">Hello! My name's Helena, I'm a Goth whom loves Dark Stuff, I'm 23 years old. I'm very interested into Astronomy and Space stuff like its research programs like the Artemis from NASA which is my favourite space's research agency. By the way I also love C0ding stuff,Cybersecurity and Hacking. What attracts me more towards C0ding is the possibility to reach what once many humans thought it was unreachable.</h4>
+
+<blockquote id="box666">"Alone and still searching for a meaning in this weird World" ― Helena C0ldheart</blockquote>
+</div>
+
+
+
+<h3><img width="250"src="img/cute-Goth.png" width="">Nick names</h3>
+<ul>
+	<li><img id="gothHorns" src="img/pastel-Goth-Horns.png">Hel</li>
+	<li><img width="150" src="img/black-heart.png">Moça do Coração Gelado</li>
+</ul>
+
+<h3><img width="350" src="img/goth-musician.png"> Favourite Bands</h3>
+<ul>
+	<li>Draconian</li>
+	<li>Synlakross</li>
+	<li>Burning Witches</li>
+	<li>Crucified Barbara</li>
+	<li>John Wick OST</li>
+	<li>Life is Strange OST</li>
+	<li>Anna Tsuchiya (土屋アンナ)</li>
+	<li>Stereopony (ステレオポニー)</li>
+	<li>Biohazard Code Veronica OST</li>
+	<li>バイオハザード：ディジェネレーション / Biohazard Degeneration Anna Tsuchiya Guilty</li>
+	<li>バイオハザード ダムネーション / Biohazard Damnation Anna Tsuchiya Carry On</li>
+</ul>
+
+<h3> <img width="250"src="img/goth-raven.png">Favourite Games</h3>
+<ul>
+<li>Left 4 dead 2</li>
+<li>Biohazard Series</li>
+<li>Life is Strange Series</li>
+<li>Covert Ops Nuclear Dawn</li>
+<li>Crash Bandcoot Series</li>
+<li>Crash Bash</li>
+<li>Gears of War Series</li>
+<li>The Walking Dead by Telltale Games</li>
+</ul>
+
+<h3><img width="350" src="img/rogue-xEvolution.png">Favourite Cartoons</h3>
+<ul>
+	<li>X-men Evolution</li>
+	<li>Static Shock</li>
+	<li>Winx Club</li>
+</ul>
+
+<h3><img width="450" src="img/digimon-Greymon.png">Favourite Animes</h3>
+<li>Pokemon</li>
+<li>Digimon</li>
+<li>Yu-gi-oh</li>
+
+<h3><img width="350" src="img/goth-movie-star.png">Favourite Films</h3>
+<ul>
+	<li>The Munsters 1964 - 1966</li>
+	<li>The Addams Family (1991)</li>
+	<li>The Addams Family (1993)</li>
+	<li>Beetlejuice 1988</li>
+	<li>The Matrix Series 1999</li>
+	<li>Hacker (2016)</li>
+	<li>Who Am I - Kein System ist sicher (2014)</li>
+</ul>
+
+
+	<div><img id="bHeader" src="img/cemetery.png">
+	</div>
+
+
+
+<!-- auto writing text function !-->
+
+<script>
+
+         function typeWriter(elemento) {
+           const textoArray = elemento.innerHTML.split("");
+           elemento.innerHTML = "";
+           textoArray.forEach(function(letra, i) {
+          setTimeout(function() {
+           elemento.innerHTML += letra;
+          }, 40 * i)
+
+           });
+         }
+         
+         const texto = document.querySelector('h4');
+         typeWriter(texto);
+
+       </script>
+
+
+
+
+
+
+
+<!-- Our content goes here!-->
+
+</body>
+</html>
