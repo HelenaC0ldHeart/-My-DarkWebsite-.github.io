@@ -1,6 +1,7 @@
 
 
 body {
+	background-color: #0D0208;
 font-family: monospace;
 background-image: url(../img/c0de.jpg);
 background-size: auto 100vh;
@@ -52,3 +53,34 @@ h1::before {
                 opacity: 0;
               }
             }
+
+
+
+
+/* Width */
+
+::-webkit-scrollbar {
+width: 30px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+
+	background: #0D0208;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	border-width: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 12px #B809CA,0 0 32px blue;
+	background:#B809CA;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+	background:#ffd1dc;
+}

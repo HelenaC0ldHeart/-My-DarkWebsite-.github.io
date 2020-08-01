@@ -161,7 +161,14 @@ h3 {
 
 
 
+ .div-3img {
+	
+	display: inline-block;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 
+}
 
 
 
@@ -182,7 +189,7 @@ h3 {
 
 
 #hel666 {
-	display:block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
@@ -231,9 +238,20 @@ h4::after {
 #gothHorns {
 
 	border-radius: 666px;
-	width: 100px;
+	width: 70px;
+	height: auto;
+	position: flex;
+	margin-right: 100px;
 }
 
+
+#blackHeart {
+	height: auto;
+	width: 100px;
+	position: flex;
+	margin-left: 60px;
+	margin-right: 40px;
+}
 
 
 
